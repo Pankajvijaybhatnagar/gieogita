@@ -17,10 +17,10 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1}>
-                <Banner />
+                 <Banner />
+            <Layout>
                 <About />
-                <SlidingText />
+                {/* <SlidingText /> */}
                 <ServicesOne />
                 <CounterOne />
                 <CTAOne />
